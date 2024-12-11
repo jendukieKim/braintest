@@ -37,7 +37,7 @@ let movesCount = 0,
 const timeGenerator = () => {
   seconds += 1;
   //minutes logic
-  if (seconds == 60) {
+  if (seconds == 30) {
     minutes += 1;
     seconds = 0;
     alert("Time up");
